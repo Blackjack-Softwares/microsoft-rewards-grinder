@@ -1,0 +1,29 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-image {
+  width: 490px;
+  height: 490px;
+  align-self: center;
+  object-fit: cover;
+}
+.home-text {
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  height: 100%;
+  font-size: 48px;
+  align-self: center;
+  text-align: center;
+  font-family: Courier New;
+}
+.home-text1 {
+  left: 15px;
+  bottom: 16px;
+  position: absolute;
+}
